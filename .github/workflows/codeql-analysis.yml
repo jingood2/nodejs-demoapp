@@ -50,6 +50,6 @@ jobs:
           github_issue_assignee: 'jingood2'
           codeql_github_integration_token: ${{ secrets.GITHUB_TOKEN }}
           github_repository: 'jingood2/nodejs-demoapp'
-  build:
-    needs: codeql-analysis
-    runs-on: ubuntu-latest
+  #build:
+  #  needs: codeql-analysis
+  #  runs-on: ubuntu-latest
